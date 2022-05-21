@@ -5,14 +5,15 @@
     sans-serif;
 } */
 body {
-  background-color: rgb(59, 61, 58);
+  background: linear-gradient(-45deg, #dbdcae, #4f5154, #c9aff1);
 }
 .headline {
   text-align: center;
-  color: rgb(190, 185, 185);
+  color: rgb(10, 10, 10);
   padding-top: 50px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 4px;
+  font-size: 20px;
 }
 /*card*/
 .card-grid {
@@ -22,12 +23,21 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .card {
-  background: rgb(199, 200, 217);
+  background: linear-gradient(-45deg, #c221a7, #3970f0, #1a0a64);
   padding: 1rem;
-  border: 1px solid #777;
+  border: 1px solid rgb(111, 113, 113);
   border-radius: 0.25rem;
   max-width: 400px;
   margin-top: 80px;
+  margin-bottom: 80px;
+}
+.card:hover {
+  border: 2px solid rgb(210, 238, 27);
+  transform: scale(1.2);
+  transition: 200ms transform ease-in-out;
+}
+.card p {
+  font-weight: bold;
 }
 
 .title {
@@ -71,9 +81,6 @@ body {
   background: hsl(203, 81%, 58%);
 }
 
-/* .btn + .btn {
-  margin-left: 0.5rem;
-} */
 /*images*/
 img {
   display: block;
@@ -82,8 +89,6 @@ img {
 }
 img:hover {
   background-color: rgb(27, 15, 58);
-  transform: scale(1.2);
-  transition: 200ms transform ease-in-out;
 }
 /*Navigation*/
 nav {
@@ -136,7 +141,7 @@ footer {
   justify-content: space-around;
   position: fixed;
   bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
+  left: 5px;
+  right: 5px;
+  margin-bottom: 5px;
 }
