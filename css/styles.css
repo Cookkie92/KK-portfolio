@@ -91,6 +91,11 @@ img {
   max-width: 100%;
   overflow: hidden;
 }
+.logo-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
 
 /*Navigation*/
 nav {
@@ -133,6 +138,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 25px;
+  display: flex;
 }
 .current {
   font-weight: bold;
