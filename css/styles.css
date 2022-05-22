@@ -5,11 +5,11 @@
     sans-serif;
 } */
 body {
-  background: linear-gradient(-45deg, #cbcbbe, #4f5154, #b7aff1);
+  background: linear-gradient(-45deg, #c7d4e3, #9fb3c4, #9f9fdb);
 }
 .headline {
   text-align: center;
-  color: rgb(237, 228, 228);
+  color: rgb(9, 9, 9);
   padding-top: 50px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   letter-spacing: 4px;
@@ -55,9 +55,9 @@ body {
   justify-content: center;
 }
 .btn {
-  --color: hsl(12, 71%, 49%);
+  --color: hsl(15, 19%, 88%);
   background: var(--color);
-  color: white;
+  color: rgb(7, 6, 6);
   border: none;
   font-size: 1rem;
   padding: 0.5em 0.75em;
