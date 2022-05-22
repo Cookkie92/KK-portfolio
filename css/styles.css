@@ -23,7 +23,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .card {
-  background: linear-gradient(-45deg, #cec1cc, #373839, #afaeb2);
+  background: linear-gradient(-45deg, #cec1cc, #7891ab, #afaeb2);
   padding: 1rem;
   border: 1px solid rgb(111, 113, 113);
   border-radius: 0.25rem;
@@ -33,7 +33,7 @@ body {
 }
 .card:hover {
   border: 2px solid rgb(37, 12, 129);
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 200ms transform ease-in-out;
 }
 .card p {
