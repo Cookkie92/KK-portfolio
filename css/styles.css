@@ -8,7 +8,7 @@
   --menu-speed: 0.75s;
 }
 body {
-  background: linear-gradient(-45deg, #c7d4e3, #9fb3c4, #9f9fdb);
+  background: #f9f1fe;
 }
 .headline {
   text-align: center;
@@ -26,7 +26,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .card {
-  background: linear-gradient(-45deg, #cec1cc, #7891ab, #afaeb2);
+  background: linear-gradient(-45deg, #d9c4ec, #bea9df, #e6d1f2);
   padding: 1rem;
   border: 1px solid rgb(111, 113, 113);
   border-radius: 0.25rem;
