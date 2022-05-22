@@ -14,7 +14,7 @@ body {
   text-align: center;
   color: rgb(0, 0, 0);
   padding: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 4px;
   font-size: 20px;
   max-width: 100%;
@@ -103,7 +103,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* background: linear-gradient(-45deg, #c221a7, #3970f0, #1a0a64); */
 }
 .nav-links {
   display: flex;
@@ -127,6 +126,7 @@ a {
 }
 .nav-links li {
   list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .nav-links a {
   font-family: cursive;
