@@ -4,14 +4,12 @@ My Portfolio
 
 # Description
 
+A site containing my projects from school, and some information about me and my work expirience.
+
 # Built With
 
 -HTML
 -CSS
-
-# Getting Started
-
-# Contributing
 
 # Contact
 
