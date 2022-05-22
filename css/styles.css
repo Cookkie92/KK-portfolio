@@ -87,9 +87,7 @@ img {
   max-width: 100%;
   overflow: hidden;
 }
-img:hover {
-  background-color: rgb(27, 15, 58);
-}
+
 /*Navigation*/
 nav {
   display: flex;
@@ -144,4 +142,24 @@ footer {
   left: 5px;
   right: 5px;
   margin-bottom: 5px;
+}
+@media (max-width: 767px) {
+  .card-grid {
+    display: grid;
+  }
+  .card {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  .card:hover {
+    border: 1px solid rgb(37, 12, 129);
+    transform: scale(1);
+    transition: 200ms transform ease-in-out;
+  }
+  .nav-links {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
 }
