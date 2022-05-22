@@ -17,14 +17,13 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   letter-spacing: 4px;
   font-size: 20px;
-
   max-width: 100%;
   margin: 5px auto;
   margin-top: 10px;
 }
 .banner {
   background: linear-gradient(-45deg, #c221a7, #3970f0, #1a0a64);
-  padding: 30px;
+  padding: 40px;
 }
 /*card*/
 .card-grid {
@@ -38,8 +37,8 @@ body {
   border: 2px solid rgb(20, 21, 21);
   border-radius: 0.25rem;
   max-width: 400px;
-  margin-top: 60px;
-  margin-bottom: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: rgb(4, 3, 3);
 }
 .card:hover {
