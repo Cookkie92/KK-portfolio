@@ -301,9 +301,13 @@ footer {
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
-    font-size: 1.5rem;
-    padding: 1rem;
+    font-size: 2rem;
+    padding: 0.5rem;
     letter-spacing: 5px;
+    border: solid 2px rgb(250, 247, 247);
+    margin: 5px;
+    margin-right: 50px;
+    background: rgb(45, 45, 48);
   }
   .menu-wrap .menu > div > div > ul > li > a {
     color: inherit;
