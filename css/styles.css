@@ -13,10 +13,13 @@ body {
 .headline {
   text-align: center;
   color: rgb(9, 9, 9);
-  padding-top: 50px;
+  padding: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   letter-spacing: 4px;
   font-size: 20px;
+  background: rgb(232, 229, 229);
+  max-width: 300px;
+  margin: 20px auto;
 }
 /*card*/
 .card-grid {
@@ -24,6 +27,7 @@ body {
   justify-content: center;
   gap: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(231, 224, 224);
 }
 .card {
   background: linear-gradient(-45deg, #d9c4ec, #bea9df, #e6d1f2);
@@ -31,7 +35,7 @@ body {
   border: 1px solid rgb(111, 113, 113);
   border-radius: 0.25rem;
   max-width: 400px;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 80px;
 }
 .card:hover {
