@@ -12,7 +12,7 @@ body {
 }
 .headline {
   text-align: center;
-  color: rgb(9, 9, 9);
+  color: rgb(242, 236, 236);
   padding: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   letter-spacing: 4px;
@@ -38,6 +38,7 @@ body {
   max-width: 400px;
   margin-top: 60px;
   margin-bottom: 80px;
+  color: rgb(247, 243, 243);
 }
 .card:hover {
   border: 2px solid rgb(37, 12, 129);
@@ -118,7 +119,7 @@ nav a:hover {
 }
 a {
   text-decoration: none;
-  color: rgb(238, 238, 231);
+  color: rgb(243, 243, 237);
   display: block;
   transition: all 0.3s ease-out;
   padding: 5px;
